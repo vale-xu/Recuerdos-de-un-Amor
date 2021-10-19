@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    background: #e4e4e4;
+    font-family: 'Lato';
+}
+
+.center .text-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.center .botones {
+    margin-top: -20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.secreto {
+    display: none;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: rgb(47, 47, 48);
+    transition: 0.3s;
+    border-radius: 4px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.puede-ser-pa-a {
+    cursor: progress;
+}
+
+.puede-ser-pa-a:hover {
+    background: rgb(12, 157, 224);
+}
+
+.negative {
+    cursor: pointer;
+}
+
+.negative:hover {
+    background: rgb(255, 0, 0);
+}
+
+.acepto:hover {
+    background: rgb(46, 255, 4);
+}
+
+.puede-ser-pa:hover {
+    background: rgb(12, 157, 224);
+}
+
+.nop:hover {
+    background: rgb(255, 0, 0);
+}
+
+.modal-1, .modal-2 {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal-container {
+    background: #fff;
+    min-width: 400px;
+    max-width: 90%;
+    top: 40px;
+    max-height: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: auto;
+}
+
+.modal-container img {
+    position: absolute;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10%;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.modal-container .ñojao {
+    position: absolute;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    top: 29%;
+    border-radius: 5px;
+}
+
+.close-modal-1, .close-modal-2, .close-modal-3 {
+    position: absolute;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
